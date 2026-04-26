@@ -1,189 +1,187 @@
-# Thesis Defense Speaker Script
-## Search for Extraterrestrial Intelligence in the New Era
-### Wang Yiyu | School of Physics and Astronomy | April 2026
+# 毕业论文答辩演讲稿
+## 新时代地外文明搜寻
+### 王伊煜 | 物理与天文学院 | 2026年4月
 
 ---
 
-## Slide 1 — Title Page
-Good morning/afternoon, respected professors and committee members. My name is Wang Yiyu, from the School of Physics and Astronomy. My thesis is titled "Search for Extraterrestrial Intelligence in the New Era," supervised by Professor Zhang Yong.
+## 第1页 — 封面
+各位老师好，我是物理与天文学院的王伊煜，我的毕业论文题目是《新时代地外文明搜寻》，指导教师是张泳教授。
 
 ---
 
-## Slide 2 — Outline
-My presentation is organized into seven sections: research background, methodology and three-dimensional framework, SETI historical evolution, paradigm comparison with traditional astronomy, SKA's three-dimensional capability leap, conclusions, and Q&A.
+## 第2页 — 目录
+我的报告分为以下几个部分：研究背景与意义、资料来源与三维分析框架、SETI历史演化分析、SETI与传统天文科学的范式差异、SKA驱动的三维度跃升、以及结论与展望。
 
 ---
 
-## Slide 3 — Research Background
-The Search for Extraterrestrial Intelligence, or SETI, has a history spanning more than six decades. It began in 1959 when Cocconi and Morrison published their foundational paper in Nature, systematically arguing that interstellar communication signals could be observable using radio telescopes. The following year, Frank Drake launched Project Ozma at the Green Bank Observatory, marking the birth of modern SETI.
+## 第3页 — 研究背景
+地外文明搜寻，也就是SETI，已经有六十多年的历史。1959年，Cocconi和Morrison在Nature上发表了奠基性论文，首次用现代物理学和无线电工程的语言论证了星际通信信号可以被观测的可能性。次年，Frank Drake在绿岸天文台实施了奥兹玛计划，现代意义上的SETI由此正式开启。
 
-Since then, SETI has evolved from early narrow-band listening, through Cold War-era grand designs, to the contemporary technosignature search framework.
-
-However, SETI has always faced fundamental scientific difficulties. The search space is extremely large, and the potential signal form is highly uncertain. Observational coverage has been chronically insufficient, meaning that null results — the fact that we haven't found anything — are difficult to use as strong constraints. The advent of the Square Kilometre Array, or SKA, provides a new entry point for re-evaluating SETI's scientific significance.
+但SETI始终面临一些根本性的科学困难。搜索空间极大，信号形式高度不确定，观测覆盖长期不足。这就导致零结果——也就是我们没找到任何信号——很难形成强有力的约束。SKA的出现，为重新审视SETI的科学意义提供了一个新的切入点。
 
 ---
 
-## Slide 4 — Research Significance & Core Question
-The central thesis of my work addresses how SETI can transform from a controversial exploratory topic into a testable observational science.
+## 第4页 — 核心问题
+本文的核心命题是：SETI如何从长期具有争议性的探索议题，逐步转化为更具可检验性的观测科学问题？
 
-To address this, I treat sky coverage, frequency coverage, and sensitivity as three critical dimensions. I establish a unified observational coordinate system to compare representative programs across different historical stages, and I demonstrate why SKA may serve as the facility inflection point for new-era SETI research.
-
----
-
-## Slide 5 — Data Sources & Literature Foundation
-My research draws on four types of materials. First, the ADS database covering SETI publications from 1960 to 2025 for staged evolution analysis. Second, classical literature from Cocconi-Morrison to the technosignature discourse. Third, representative observation papers, especially Breakthrough Listen's search of 1,327 nearby stars over 1.10 to 3.45 GHz. And fourth, SKAO official system specifications and performance documents.
-
-Through a dual bibliographic approach — a "strict core set" of 778 peer-reviewed astronomy papers and a "comprehensive set" of 1,519 papers from astronomy and physics — I avoid both keyword noise and underestimation from overly strict boundaries.
+为此，我将天区覆盖、频率覆盖和灵敏度视为三个最关键的维度，建立统一的观测坐标系来比较不同历史阶段的代表性计划，并论证SKA为何可能成为新时代SETI研究的设施拐点。
 
 ---
 
-## Slide 6 — Three-Dimensional Analysis Framework
-I propose a three-dimensional analysis framework to enable fair cross-program comparison.
+## 第5页 — 资料来源
+本研究主要使用四类材料：ADS文献数据用于把握1960到2025年SETI的阶段性变化；经典文献和综述用于梳理问题脉络；代表性观测论文特别是Breakthrough Listen的公开搜索数据；以及SKAO官方发布的系统规格和性能文档。
 
-The first dimension is sky coverage, measured as cumulative observed sky area in square degrees. For targeted monitoring programs, I approximate this by target count multiplied by primary beam solid angle. The emphasis is on order-of-magnitude comparison, not per-program precision.
-
-The second dimension is frequency coverage — the actual searched frequency range, defined as delta-f equals f-max minus f-min from published papers and official materials. Importantly, I distinguish between a device's nominal capability and the actual search range implemented by each program.
-
-The third dimension is sensitivity. I strictly use radio parameters: effective area over system temperature, SEFD, and the radiometer equation for minimum detectable flux density. Collecting area in square meters serves as an intuitive proxy in my visualizations.
+在文献检索方面，我采用了双口径方案。严格核心文献集限定标题或摘要包含SETI、technosignature等核心主题词，最终得到778篇样本；全量相关文献集扩展到天文学和物理学两大数据库，得到1519篇。双口径并行的目的是避免把文献统计变成单纯的年度报数。
 
 ---
 
-## Slide 7 — Four Stages of SETI Development
-I identify four stages in SETI's development, each with clear bibliometric support.
+## 第6页 — 三维框架
+为了让不同历史计划能够在同一坐标系中比较，我定义了三个核心维度。
 
-Stage 1, the Pioneer Era from the 1960s to 1970s, saw only 4 papers total, at an average of 0.36 per year. Cocconi and Morrison's foundational paper and Drake's Project Ozma established the narrow-band listening pathway, though academic momentum was minimal.
+第一是天区覆盖，即累计被观测的天空面积。对于定点监听项目，我按目标数乘以主波束面积来近似换算。这里强调的是数量级比较。
 
-Stage 2, the Expansion Era from 1971 to 1992, accumulated 381 papers at 17.3 per year — a 9,425% growth from the pioneer era. This dramatic increase was driven by NASA's institutionalization of SETI through the High Resolution Microwave Survey program.
+第二是频率覆盖，即一个计划真正搜索到的频率范围。需要特别区分"设备理论上能看多宽"和"实际搜了多宽"这两个不同的概念。
 
-Stage 3, the Transition Era from 1993 to 2015, produced 563 papers at 24.5 per year. Despite NASA's centralized program ending, SETI continued through decentralized, cross-disciplinary accumulation — a structural transformation rather than a decline.
-
-Stage 4, the Renaissance Era from 2016 to 2025, has already produced 571 papers at 57.1 per year — a 133% annual increase over Stage 3. This acceleration is driven by Breakthrough Listen, FAST participation, AI-assisted searches, and the technosignature concept expansion.
+第三是灵敏度。严格来说应该用有效集光面积与系统温度之比、SEFD等射电参数，但历史项目的参数口径不统一，所以图表中先用集光面积作为直观代理。
 
 ---
 
-## Slide 8 — Four-Stage Diagram
-This diagram visualizes the four stages of SETI's sixty-year development. The key takeaway is that the transitions between stages correlate with changes in equipment capabilities, funding structures, and disciplinary organization — not with whether credible signals were discovered.
+## 第7页 — 四个阶段
+基于文献统计，我将SETI的发展划分为四个阶段。
+
+开创期（1960s到1970s）：累计只有4篇论文，年均约0.36篇。当时SETI还停留在少数学者尝试把宏大问题转化为观测计划的起步状态。
+
+扩张期（1971到1992年）：累计381篇，年均17.3篇，增长率达到9425%。这一阶段与NASA介入后形成的制度化项目密切相关。
+
+转型期（1993到2015年）：累计563篇，年均24.5篇。虽然NASA集中式项目终止了，但SETI并没有归零，而是以更分散、更多学科交叉的方式继续增长。
+
+复兴期（2016到2025年）：已经累计571篇，年均57.1篇，相比转型期年均增幅133%。推动因素包括突破聆听计划、FAST的参与、AI方法的应用以及technosignature概念扩展。
 
 ---
 
-## Slide 9 — Literature Statistics
-These two figures show the strict core set on the left with 778 papers and the comprehensive set on the right with 1,519 papers. The dual approach confirms that the overall trend is robust regardless of retrieval boundary choice. The decline after NASA's program termination is real but temporary, and the renaissance since 2016 is clearly visible in both datasets.
-
-A key finding is that SETI's rise and fall are shaped more by instrumental capabilities, funding structures, and related disciplinary development than by whether credible signals are detected.
+## 第8页 — 四阶段示意图
+请看这张示意图，展示了SETI六十年来四个发展阶段的整体脉络。[指图] 可以看到，四个阶段之间的转换与设备能力、资助结构和学科组织方式高度相关，而不是取决于有没有发现可信信号。
 
 ---
 
-## Slide 10 — Citation & Readership Metrics
-On the left is the citation distribution for the 778 core papers, with an H-index of 42 and total citations of 8,393 — an average of 10.79 per paper. On the right is the readership data, with an H-index of 175 and total readings of 79,070.
+## 第9页 — 文献统计
+左边是严格核心文献集的统计，右边是全量相关文献集。[指图] 两个口径虽然数量不同，但趋势是一致的：NASA项目终止后确实有放缓，但并未归零；2016年之后的加速在两个数据集中都非常明显。
 
-Among the 778 core papers, 763 or 98.07% are peer-reviewed journal originals. For a direction long considered marginal, these metrics demonstrate that SETI has formed a recognizable achievement network within conventional academic evaluation systems, with sustained attention well above what a "cold topic" would show.
-
----
-
-## Slide 11 — Why Radio Has Long Dominated
-A natural question is: why has the radio pathway dominated SETI? There are physical and technical reasons.
-
-Physically, lower-frequency radio photons carry less energy, making radio more efficient for long-range, sustained information transmission. Radio wavelengths also pass through Earth's atmosphere with minimal attenuation, and the interstellar medium attenuates radio frequencies relatively controllably.
-
-Technically, radio astronomy offers a mature pipeline: narrow-band detection, Doppler drift correction, RFI rejection, and repeat observation. Perhaps most importantly, radio SETI has high equipment overlap with conventional radio astronomy. This "ride-along" feasibility means SETI doesn't always need dedicated facilities — it can operate as a commensal search alongside regular observations. SKA's potential is built precisely on this logic.
+一个最值得注意的事实是：文献数量的变化与"有没有发现可信信号"并不直接对应，而与设备能力、资助结构和学科组织方式高度相关。
 
 ---
 
-## Slide 12 — Paradigm Comparison
-This table compares SETI with traditional observational astronomy across five dimensions. The key differences are: first, SETI's target existence itself is uncertain, unlike known astronomical objects. Second, null results in SETI can only exclude local hypotheses, not directly constrain model parameters. Third, the positive-result threshold is extraordinarily high — any candidate must be proven to not be ground interference, satellite leakage, instrument artifacts, or any known astrophysical process.
+## 第10页 — 引用与阅读数据
+左边是778篇核心文献的引用分布，H-index为42，总引用8393次，篇均10.79次。右边是阅读数据，H-index达到175。[指图]
 
-I use cosmology as a reference case. Cosmology transformed from "speculative" to "precision science" through observational advances like COBE and Planck. SETI needs the same transformation: turning vague "we listened but heard nothing" into clear frequency-band, power-threshold, and sky-coverage constraints.
-
----
-
-## Slide 13 — Frequency Dimension
-This figure compares the frequency spans of representative radio SETI programs. Project Ozma searched essentially a single frequency near 1420 MHz. Phoenix covered 1 to 3 GHz. Breakthrough Listen's representative public data covers 1.10 to 3.45 GHz, about 2.35 GHz wide.
-
-SKA changes the picture fundamentally. SKA-Low covers 50 to 350 MHz, and SKA-Mid covers 0.35 to 15.4 GHz. This isn't just "a bit wider" — it's a facility-level transformation that for the first time brings both low-frequency wide-field arrays and mid-to-high-frequency sensitive dish arrays into a single facility system.
-
-The physical significance is that SETI's frequency assumptions need no longer be so narrow. Traditional SETI has long favored the "water hole" band around 1420 MHz. SKA allows the search to extend to both lower and higher frequencies in a systematic way, reducing the risk of prior-driven omission.
-
-I should note that SKA-Mid currently deploys Bands 1, 2, 5a, and 5b first, with Bands 3 and 4 to follow. So there is a distinction between the system design range and current-stage deployment.
+核心文献中98.07%是同行评议期刊论文。对于一个长期被视为边缘议题的方向来说，这些指标至少说明SETI已经形成了能被常规学术评价体系识别的成果网络。
 
 ---
 
-## Slide 14 — Sky Area Dimension
-This figure compares sky coverage on a logarithmic scale. Using my unified primary-beam approximation, Ozma covered about 0.31 square degrees; Phoenix about 12.8; Breakthrough Listen about 16.0.
+## 第11页 — 射电为何长期主流
+严格来说，SETI并不必然等同于射电搜寻。technosignature概念扩展后，光学激光脉冲、红外余热等都被提出为潜在目标。但射电仍然是最具可操作性的主轴。
 
-SKA's projected cumulative coverage reaches 10 cubed to 10 to the fourth square degrees through commensal survey operations. This is a structural upgrade: for the first time, both deep targeted searches and wide-area surveys can coexist within the same facility. SETI's sky coverage is no longer dependent on securing dedicated telescope time but can grow as a continuous byproduct of the facility's regular operation.
-
----
-
-## Slide 15 — Sensitivity Dimension
-This figure uses collecting area as a sensitivity proxy on a log scale. The progression from Ozma's 26-meter dish to SKA's combined array of about 4.33 times 10 to the 5th square meters represents a 1-to-2 order-of-magnitude leap.
-
-More formally, the minimum detectable flux density follows the radiometer equation shown here. The equivalent isotropic radiated power, or EIRP, upper limit at distance d is given by 4 pi d-squared times S-min times delta-nu. Reducing SEFD, increasing integration time, or optimizing channel settings all improve detection capability.
-
-SKA's sensitivity value isn't just about total area — it's about maintaining high observation efficiency while simultaneously handling multiple directions, frequency bands, and parallel data streams. This is what SETI truly needs: the ability to maintain sensitivity across a large parameter space, not just in a single narrow observation.
+物理上，射电波段的单光子能量较低，在相同功率预算下更适合长距离信息传输。技术上，射电天文学拥有成熟的窄带检测、多普勒修正和RFI排除流程。更重要的是，射电SETI与常规天文观测的设备重合度很高，可以"搭载式"运行。SKA的潜力正是建立在这一逻辑之上。
 
 ---
 
-## Slide 16 — Three-Dimensional Synchronous Expansion
-This is my core finding. The table summarizes the comparison across all three dimensions. Most historical programs advanced in only one or two: some had wider frequency but narrow sky coverage; others had higher sensitivity but tiny sky areas.
+## 第12页 — 范式差异
+这张表比较了SETI与传统天文学在证据结构上的差异。[指表] 核心区别在于：传统天文学的研究对象是已知存在的，而SETI面对的是"是否存在"这一前提都尚未确认的问题。因此零结果在SETI中只能排除非常局部的假设。
 
-SKA is expected to achieve simultaneous expansion across all three dimensions for the first time — sky coverage from less than 1 to potentially thousands of square degrees, frequency coverage from a single point to over 15 GHz, and collecting area from hundreds to hundreds of thousands of square meters.
-
-To use an analogy from the thesis: past SETI null results were like scooping water from the ocean with a small bowl. The problem wasn't just that the bowl was small, but that it only grew in one dimension — maybe deeper, but not wider. SKA may be the first to simultaneously expand the scoop in all directions, making "no detection" scientifically meaningful as a parameter-space upper bound.
+我以宇宙学为参照：宇宙学从"思辨性过强"到今天的"精确宇宙学"，靠的不是哲学层面的争论解决，而是COBE、Planck等观测设备让大量问题逐步变成可测量的参数。SETI需要走同样的路。
 
 ---
 
-## Slide 17 — Main Conclusions
-I have four main conclusions.
+## 第13页 — 频率维度
+这张图展示了代表性射电SETI计划的频率跨度比较。[指图] 奥兹玛几乎是单频点，凤凰计划覆盖1到3 GHz，Breakthrough Listen的代表性数据覆盖约2.35 GHz宽度。
 
-First, literature dynamics show that SETI's rise and fall are driven by equipment capabilities, funding structures, and disciplinary context — not by whether signals are found.
+而SKA-Low覆盖50到350 MHz，SKA-Mid覆盖0.35到15.4 GHz。这不只是"更宽一些"，而是首次把低频大视场阵列和中高频高灵敏度碟阵同时纳入同一设施体系。
 
-Second, the three-dimensional framework of sky coverage times frequency coverage times sensitivity effectively reveals the structural differences between historical programs and SKA.
-
-Third, SKA's core significance for SETI lies not in guaranteeing discovery, but in reshaping the evidence base and outcome evaluation methodology — pushing SETI toward parameter-space-constrained observational science.
-
-Fourth, this represents a paradigm transformation: the first simultaneous expansion of three key capabilities converts null results from weak constraints to meaningful upper bounds.
+需要指出的是，SKA-Mid目前优先部署的是Bands 1、2、5a和5b，Bands 3和4还有待后续部署，所以系统设计范围和当前实际部署之间有阶段性差异。
 
 ---
 
-## Slide 18 — Future Perspectives
-I identify five directions for SETI's future development.
+## 第14页 — 天区维度
+这张图在对数坐标下比较了各计划的天区覆盖。[指图] 按统一主波束近似估算，奥兹玛约0.31平方度，凤凰约12.8，Breakthrough Listen约16.0。
 
-First, commensal observation should be prioritized — SETI backends can operate in parallel with regular astronomical observations, maximizing efficiency without requiring dedicated telescope time.
+SKA的预期累积覆盖可达数千到上万平方度。关键变化是：SETI的天区覆盖不再完全依赖是否拿到专门机时，而可能随着整个设施的长期运行不断增长——从"单个项目的局部成果"转化为"设施生命周期中的持续增量"。
 
-Second, while radio should remain the primary axis, multi-band coordination with optical, infrared, and UV observations provides important cross-validation.
-
-Third, machine learning algorithms are critical tools for RFI rejection and candidate screening at scale, though they cannot replace scientific judgment in the verification process.
-
-Fourth, null results should be treated as formal scientific outputs. If observation boundaries, frequency bands, integration times, and power thresholds are clearly documented, "no detection" accumulates into growing empirical knowledge about civilization abundance.
-
-Fifth, SETI should coordinate with exoplanet and astrobiology research for more physically motivated target selection, leveraging decades of progress in habitability studies.
+这也意味着深搜和广域巡天两种策略首次有机会在同一设施体系内并存。
 
 ---
 
-## Slide 19 — Q&A
-That concludes my presentation. Thank you for your attention. I welcome any questions and discussion.
+## 第15页 — 灵敏度维度
+这张图用集光面积作为灵敏度代理进行对比。[指图] 从奥兹玛的26米天线到SKA约43.3万平方米的总集光面积，是1到2个数量级的跃迁。
+
+更严格地看，最小可探测通量密度由辐射计方程给出：[指公式] S_min近似等于信噪比阈值乘以SEFD，除以极化数、通道宽度和积分时间的开方。
+
+换算到距离d处可排除的等效全向辐射功率上限：EIRP_min约等于4πd²乘以S_min再乘以信号带宽。
+
+SKA的优势不只是"总面积更大"，而是在多波束、宽频带和大天区数据处理同时存在时，仍能保持较高的观测效率。
 
 ---
 
-## Anticipated Questions & Suggested Answers:
+## 第16页 — 三维同步扩张
+这是本文的核心发现。这张表总结了五个代表性计划在三个维度上的数量级比较。[指表]
 
-### Q1: "What makes SKA different from simply building a bigger telescope?"
-A: It's not just about size. SKA achieves simultaneous expansion across all three dimensions — sky, frequency, and sensitivity — for the first time. This fundamentally changes what null results mean. A bigger single dish would only improve one dimension. SKA's array architecture with both low-frequency wide-field and mid-frequency sensitive components enables multi-dimensional advancement together.
+历史上大多数计划只在一两个维度上推进。而SKA有望首次实现三项关键能力的同步扩张——天区从不到1到数千平方度，频率从单频点到超过15 GHz，集光面积从数百到数十万平方米。
 
-### Q2: "Is SETI really science if we keep getting null results?"
-A: That's exactly the point of my thesis. The three-dimensional framework shows that historically, null results couldn't form strong constraints because coverage was too limited in most dimensions. SKA can change this — when you've searched thousands of square degrees across 15 GHz of bandwidth with orders-of-magnitude better sensitivity, your null result becomes a meaningful parameter-space upper bound, similar to how cosmology's null results about certain models became scientifically powerful with better data.
+用论文中的比喻来说：过去的SETI零结果之所以很难服人，不只是因为"舀的水少"，更因为"碗"只在某一个方向上变大——也许更深却不更广。SKA可能第一次同时扩大取样面积、频率跨度和可达灵敏度，让"没有发现"从模糊的"宇宙很安静"转化为明确的参数空间上界。
 
-### Q3: "How does Breakthrough Listen compare to SKA?"
-A: BL excels in data quality and verification procedures for its 1,327-star sample, but covers only about 16 square degrees and 2.35 GHz. SKA can potentially cover 10³–10⁴ square degrees across over 15 GHz while maintaining comparable or better sensitivity. It's a structural, not incremental, improvement — and SKA can do this through commensal observing without dedicated time.
+---
 
-### Q4: "Why not focus on optical or infrared SETI instead?"
-A: Radio remains the most practical primary axis because of physical advantages (efficient long-range transmission), mature technology (decades of narrow-band detection pipelines), and institutional feasibility (high overlap with conventional radio astronomy). Multi-band approaches are valuable as supplements, but radio's "ride-along" capability with existing facilities makes it the most immediately productive path.
+## 第17页 — 主要结论
+我的主要结论有四点。
 
-### Q5: "What are the limitations of your three-dimensional framework?"
-A: I acknowledge three main limitations. First, the ADS dual-dataset approach captures staged trends but can't exhaustively cover cross-disciplinary boundaries and keyword drift. Second, my unified beam approximation and sensitivity proxy reflect order-of-magnitude structural differences, not precise reconstruction of each historical observation. Third, SKA discussion partly relies on official specifications; actual SETI-available capabilities will depend on future operational practice, band deployment, and data-sharing policies.
+第一，文献统计表明SETI的兴衰主要受设备能力、资助结构和学科发展条件驱动，而非取决于是否发现信号。
 
-### Q6: "What's the realistic timeline for SKA SETI observations?"
-A: SKA is entering construction and early science phase. Commensal SETI backends could begin operating within the first few years of regular observations. The key advantage is that SETI doesn't need to compete for dedicated time — it piggybacks on all the regular survey observations the facility conducts.
+第二，天区覆盖×频率覆盖×灵敏度的三维框架，有效揭示了历史计划与SKA之间的结构性差异。
 
-### Q7: "How does China's FAST telescope fit into this picture?"
-A: FAST represents an important step for Chinese participation in SETI — the targeted search of 33 exoplanet systems shows China is moving from observer to active participant. However, FAST is still a single dish with limited sky coverage. SKA's array architecture provides the multi-dimensional leap that individual telescopes, no matter how large, cannot achieve alone.
+第三，SKA的核心意义不在于保证发现地外文明，而在于重塑SETI的证据基础和成果评价方式。
+
+第四，首次三维同步扩张使零结果从弱约束转化为参数空间的明确上界，这是SETI走向成熟科学的关键一步。
+
+---
+
+## 第18页 — 展望
+未来SETI的发展，我认为有几个重要方向。
+
+共享观测优先：SETI后端与常规观测并行，不需要单独占用望远镜时间。
+
+多波段联动：射电作为主轴，光学、红外等提供交叉验证。
+
+算法方法支撑：机器学习在大规模频谱筛查中不可或缺，但不能替代科学判断。
+
+零结果正式化：将"没有发现"当作正式科学产出，建立规范的参数空间约束体系。
+
+与系外行星和天体生物学协同：为目标筛选提供更扎实的物理依据。
+
+---
+
+## 第19页 — 致谢
+以上就是我的报告内容。感谢各位专家评委的指导，谢谢！
+
+---
+
+## 可能被问到的问题与参考回答：
+
+### Q1：SKA和"造一个更大的望远镜"有什么本质区别？
+A：不只是大。SKA的关键在于三个维度——天区、频率、灵敏度——首次同步扩张。一个更大的单口径只会提升灵敏度这一个维度。SKA的低频阵列提供大视场巡天能力，中频阵列提供高灵敏度深搜能力，两者在同一设施体系内协同工作，这是结构性的改变而非增量提升。
+
+### Q2：如果SETI一直没发现信号，它还算科学吗？
+A：这正是本文要回答的问题。三维框架表明，历史上零结果之所以约束力弱，是因为大部分维度的覆盖都太有限。SKA能在三个维度同时大幅推进后，零结果就不再是"什么也没发生"，而是"在某个频带、某个功率阈值、某个天区条件下，我们已经把technosignature的上界推进到了哪里"——这就成了有科学意义的结论。
+
+### Q3：Breakthrough Listen和SKA比怎么样？
+A：BL在数据质量和复核流程上代表了当前最高水平，但它覆盖约16平方度和2.35 GHz频宽。SKA有望覆盖数千平方度、超过15 GHz频段，同时灵敏度更高。更重要的是，SKA通过共享观测实现这些，不需要专门机时。这是结构性的而非增量性的差异。
+
+### Q4：为什么不用光学或红外SETI？
+A：射电仍是最具可操作性的主轴。物理上射电信号适合长距离传输，技术上射电天文学有成熟的窄带检测和RFI排除流程，制度上射电设备与常规天文重叠度高、可以搭载运行。多波段方法有价值，但在当前阶段更适合作为射电主线的补充。
+
+### Q5：你的三维框架有什么局限性？
+A：我承认三方面局限。第一，ADS双口径检索无法完全穷尽跨学科边界和关键词漂移，文献统计更适合揭示趋势而非精确总量。第二，统一主波束近似和灵敏度代理反映的是数量级结构差异，而非每次历史观测的精确复原。第三，关于SKA的讨论部分依赖官方规格文档，实际可用能力还需后续运行实践来检验。
+
+### Q6：中国天眼FAST在SETI中的角色？
+A：FAST的定向搜索（如33个系外行星系统）表明中国正从外围观察者转变为SETI的积极参与者。但FAST是单口径，天区覆盖有限。SKA的阵列架构提供了单台望远镜无法实现的多维跃升。两者互补，而非替代。
+
+### Q7：SKA SETI观测大概什么时候能开始？
+A：SKA正进入建设和早期科学阶段。共享观测模式的SETI后端可以在常规运行的头几年就开始工作，关键优势是不需要竞争专门机时——所有常规巡天观测都可以同时积累SETI数据。

@@ -1,325 +1,324 @@
 \documentclass{sysupptthesis}
 
 \AddToHook{shipout/foreground}{\BackgroundPicture}
-\author{Wang Yiyu}
-\title{Search for Extraterrestrial Intelligence\\in the New Era}
-\subtitle{Bachelor's Thesis Defense Report}
-\institute{School of Physics and Astronomy, Sun Yat-sen University}
-\date{April 2026}
+\author{王伊煜}
+\title{新时代地外文明搜寻}
+\subtitle{本科毕业论文答辩报告}
+\institute{中山大学 物理与天文学院}
+\date{2026年4月}
 
 \begin{document}
 
-% ============ Title ============
+% ============ 封面 ============
 \begin{frame}
     \titlepage
     \vspace*{-0.5cm}
     \begin{center}
-        {\large\textbf{Sun Yat-sen University}}\\[0.3em]
-        {\normalsize Candidate: Wang Yiyu \quad|\quad Student ID: 22344140}\\[0.2em]
-        {\normalsize Supervisor: Prof.\ Zhang Yong}
+        {\large\textbf{中山大学}}\\[0.3em]
+        {\normalsize 答辩人：王伊煜 \quad|\quad 学号：22344140}\\[0.2em]
+        {\normalsize 指导教师：张泳 教授}
     \end{center}
 \end{frame}
 
-% ============ Outline ============
-\begin{frame}{Contents}
+% ============ 目录 ============
+\begin{frame}{目录}
     \tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide]
 \end{frame}
 
 % ============================================================
-\section{Introduction \& Research Background}
+\section{研究背景与意义}
 % ============================================================
 
-\begin{frame}{Research Background}
-    \begin{block}{Historical Origins}
+\begin{frame}{研究背景}
+    \begin{block}{历史起源}
         \begin{itemize}
-            \item 1959: Cocconi \& Morrison published the foundational paper in \textit{Nature}, systematically arguing that interstellar communication signals could be observable
-            \item 1960: Frank Drake launched Project Ozma at Green Bank Observatory --- the birth of modern SETI
-            \item Evolution from narrow-band listening, Cold War-era grand designs, to contemporary technosignature search frameworks
+            \item 1959年：Cocconi与Morrison在\textit{Nature}发表奠基论文，系统论证星际通信信号可被观测
+            \item 1960年：Frank Drake在绿岸天文台实施奥兹玛计划，现代SETI由此开启
+            \item 从窄带监听、冷战时期大尺度设想到当代技术特征（technosignature）搜索框架
         \end{itemize}
     \end{block}
 
-    \begin{block}{Core Scientific Difficulties}
+    \begin{block}{核心科学困难}
         \begin{itemize}
-            \item Extremely large search space with highly uncertain signal forms
-            \item Chronic observational coverage gaps --- null results difficult to constrain
-            \item Involves extremely rare targets,超大 parameter spaces, and frontier methodology questions
-            \item The advent of SKA provides a new entry point for re-evaluating SETI's scientific significance
+            \item 搜索空间极大、信号形式高度不确定
+            \item 观测覆盖长期不足，零结果难以形成强约束
+            \item 涉及极端稀有目标、超大参数空间等前沿方法论问题
+            \item SKA的出现为重新理解SETI科学意义提供新切入点
         \end{itemize}
     \end{block}
 \end{frame}
 
-\begin{frame}{Research Significance \& Core Question}
-    \defination{Central Thesis}{
-        How can SETI transform from a controversial exploratory topic into a testable observational science?
+\begin{frame}{研究意义与核心问题}
+    \defination{核心命题}{
+        SETI如何从长期具有争议性的探索议题，逐步转化为更具可检验性的观测科学问题？
     }
 
-    \begin{block}{Approach}
+    \begin{block}{研究思路}
         \begin{itemize}
-            \item Treat sky coverage, frequency coverage, and sensitivity as three critical dimensions
-            \item Establish a unified observational coordinate system across historical stages
-            \item Demonstrate why SKA may serve as the \textbf{facility inflection point} for new-era SETI
-            \item Push SETI toward observational science characterized by parameter space constraints
+            \item 将天区覆盖、频率覆盖和灵敏度视为三个最关键维度
+            \item 建立统一观测坐标系，比较不同历史阶段代表性计划
+            \item 论证SKA为何可能成为新时代SETI研究的\textbf{设施拐点}
+            \item 推动SETI走向以参数空间约束为特征的观测科学
         \end{itemize}
     \end{block}
 \end{frame}
 
 % ============================================================
-\section{Methodology \& Three-Dimensional Framework}
+\section{资料来源与三维分析框架}
 % ============================================================
 
-\begin{frame}{Data Sources \& Literature Foundation}
-    \begin{block}{Four Types of Materials}
+\begin{frame}{资料来源与文献基础}
+    \begin{block}{四类材料}
         \begin{itemize}
-            \item \textbf{ADS database}: 1960--2025 SETI publications for staged evolution analysis
-            \item \textbf{Classical literature}: from Cocconi-Morrison to the technosignature discourse
-            \item \textbf{Representative observations}: Breakthrough Listen's 1327-star search over 1.10--3.45 GHz
-            \item \textbf{SKAO official documents}: system specifications and performance parameters
+            \item \textbf{ADS文献数据}：1960--2025年SETI文献阶段性变化分析
+            \item \textbf{经典文献与综述}：从Cocconi-Morrison到technosignature问题脉络
+            \item \textbf{代表性观测论文}：Breakthrough Listen对1327颗近邻恒星1.10--3.45 GHz搜索
+            \item \textbf{SKAO官方文档}：系统规格和性能资料
         \end{itemize}
     \end{block}
 
-    \begin{block}{Dual Bibliographic Datasets}
+    \begin{block}{双口径文献集}
         \begin{itemize}
-            \item \textbf{Strict core set}: titles/abstracts containing SETI, technosignature keywords $\rightarrow$ \textbf{778 samples} (peer-reviewed astronomy)
-            \item \textbf{Comprehensive set}: expanded to astronomy \& physics $\rightarrow$ \textbf{1,519 samples} for broader trends
-            \item Dual approach avoids both noise from broad keywords and underestimation from overly strict boundaries
+            \item \textbf{严格核心文献集}：标题/摘要含SETI、technosignature等核心词 $\rightarrow$ \textbf{778篇}（天文学同行评议）
+            \item \textbf{全量相关文献集}：扩展至天文学与物理学 $\rightarrow$ \textbf{1519篇}（宽口径趋势观察）
+            \item 双口径并行，避免宽泛关键词噪声与边界过严的低估
         \end{itemize}
     \end{block}
 \end{frame}
 
-\begin{frame}{Three-Dimensional Analysis Framework}
-    \begin{block}{1. Sky Coverage --- Cumulative observed sky area (deg$^2$)}
+\begin{frame}{三维分析框架}
+    \begin{block}{1. 天区覆盖——累计被观测的天空面积（deg$^2$）}
         \begin{itemize}
-            \item Targeted monitoring: approximate by $N_{\text{tgt}} \times \Omega_b$ (primary beam area)
-            \item Survey programs: use publicly reported area orders of magnitude
-            \item Emphasis on order-of-magnitude comparison
+            \item 定点监听：按 $N_{\text{tgt}} \times \Omega_b$（主波束面积）近似
+            \item 巡天计划：采用公开面积量级，强调数量级比较
         \end{itemize}
     \end{block}
 
-    \begin{block}{2. Frequency Coverage --- Actual searched frequency range (GHz)}
+    \begin{block}{2. 频率覆盖——实际搜索到的频率范围（GHz）}
         \begin{itemize}
-            \item Distinguish nominal instrument capability from actual program search range
-            \item $\Delta f = f_{\max} - f_{\min}$: what was \emph{actually} searched, not what the instrument \emph{could} cover
+            \item $\Delta f = f_{\max} - f_{\min}$：实际搜了多宽，而非设备理论上能看多宽
+            \item 区分"设备名义能力"与"计划实际搜索范围"
         \end{itemize}
     \end{block}
 
-    \begin{block}{3. Sensitivity --- Minimum detectable signal capability}
+    \begin{block}{3. 灵敏度——最小可探测信号能力}
         \begin{itemize}
-            \item Strictly uses $A_{\text{eff}}/T_{\text{sys}}$, SEFD, and radiometer equation
-            \item Collecting area (m$^2$) used as intuitive proxy in visualizations
+            \item 严格用 $A_{\text{eff}}/T_{\text{sys}}$、SEFD和辐射计方程
+            \item 图表中以集光面积（m$^2$）作直观代理
         \end{itemize}
     \end{block}
 \end{frame}
 
 % ============================================================
-\section{Historical Evolution of SETI (1960--2025)}
+\section{SETI历史演化分析（1960--2025）}
 % ============================================================
 
-\begin{frame}{Four Stages of SETI Development}
+\begin{frame}{SETI发展的四个阶段}
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
-            \begin{block}{Stage 1 (1960s--70s): Pioneer Era}
+            \begin{block}{第一阶段（1960s--70s）：开创期}
                 \begin{itemize}\small
-                    \item Cocconi-Morrison (1959); Drake's Ozma (1960)
-                    \item 4 papers total, $\bar{N} \approx 0.36$/yr
-                    \item Narrow-band pathway established
+                    \item Cocconi-Morrison（1959）；Drake奥兹玛（1960）
+                    \item 累计4篇，年均 $\bar{N} \approx 0.36$篇/年
+                    \item 窄带监听技术路径确立
                 \end{itemize}
             \end{block}
-            \begin{block}{Stage 2 (1971--92): Expansion Era}
+            \begin{block}{第二阶段（1971--92）：扩张期}
                 \begin{itemize}\small
-                    \item NASA HRMS program
-                    \item 381 papers, $\bar{N} \approx 17.3$/yr
-                    \item Growth rate $g = 9425\%$ from institutionalization
+                    \item NASA HRMS专项
+                    \item 381篇，$\bar{N} \approx 17.3$篇/年
+                    \item 增长率 $g = 9425\%$，制度化推进
                 \end{itemize}
             \end{block}
         \end{column}
         \begin{column}{0.48\textwidth}
-            \begin{block}{Stage 3 (1993--2015): Transition Era}
+            \begin{block}{第三阶段（1993--2015）：转型期}
                 \begin{itemize}\small
-                    \item Post-NASA decentralized growth
-                    \item 563 papers, $\bar{N} \approx 24.5$/yr
-                    \item Cross-disciplinary accumulation
+                    \item NASA项目终止后的分散化增长
+                    \item 563篇，$\bar{N} \approx 24.5$篇/年
+                    \item 跨学科持续积累
                 \end{itemize}
             \end{block}
-            \begin{block}{Stage 4 (2016--25): Renaissance Era}
+            \begin{block}{第四阶段（2016--25）：复兴期}
                 \begin{itemize}\small
-                    \item Breakthrough Listen, FAST participation
-                    \item 571 papers, $\bar{N} \approx 57.1$/yr
-                    \item $133\%$ annual increase vs.\ Stage 3
+                    \item BL启动、FAST参与
+                    \item 571篇，$\bar{N} \approx 57.1$篇/年
+                    \item 年均增幅 $133\%$，明显加速
                 \end{itemize}
             \end{block}
         \end{column}
     \end{columns}
 \end{frame}
 
-\begin{frame}{Four-Stage Diagram \& Literature Statistics}
+\begin{frame}{四阶段示意图}
     \begin{center}
         \includegraphics[width=0.75\textwidth]{fig/fig_01_p20.png}
     \end{center}
     \vspace{-0.3em}
     \begin{center}\small
-        Figure 3.1: Sixty years of SETI development in four stages
+        图3.1 SETI六十年发展四阶段示意图
     \end{center}
 \end{frame}
 
-\begin{frame}{Literature Statistics: Strict Core \& Comprehensive Sets}
+\begin{frame}{文献统计：严格核心集与全量集}
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
             \begin{center}
                 \includegraphics[width=\textwidth]{fig/fig_02_p21.png}\\[0.3em]
-                {\small Strict core set (778 papers)}
+                {\small 严格核心文献集（778篇）}
             \end{center}
         \end{column}
         \begin{column}{0.48\textwidth}
             \begin{center}
                 \includegraphics[width=\textwidth]{fig/fig_03_p21.png}\\[0.3em]
-                {\small Comprehensive set (1,519 papers)}
+                {\small 全量相关文献集（1519篇）}
             \end{center}
         \end{column}
     \end{columns}
     \vspace{0.5em}
-    \begin{block}{Key Finding}
-        The rise and decline of SETI are shaped more by \textbf{instrumental capabilities, funding structures, and related disciplinary development} than by whether credible signals are detected.
+    \begin{block}{核心发现}
+        SETI领域的兴衰更主要受\textbf{设备能力、资助结构及相关学科发展条件}影响，而非单纯取决于是否发现可信信号。
     \end{block}
 \end{frame}
 
-\begin{frame}{Core Citation \& Readership Metrics}
+\begin{frame}{核心引用与阅读数据}
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
             \begin{center}
                 \includegraphics[width=\textwidth]{fig/fig_04_p21.png}\\[0.3em]
-                {\small Citation distribution (H-index = 42)}
+                {\small 引用分布（H-index = 42）}
             \end{center}
         \end{column}
         \begin{column}{0.48\textwidth}
             \begin{center}
                 \includegraphics[width=\textwidth]{fig/fig_05_p22.png}\\[0.3em]
-                {\small Readership (H-index = 175)}
+                {\small 阅读数据（H-index = 175）}
             \end{center}
         \end{column}
     \end{columns}
     \vspace{0.5em}
-    \begin{block}{Implications}
+    \begin{block}{意义}
         \begin{itemize}
-            \item 763 of 778 core papers (98.07\%) are peer-reviewed journal originals
-            \item Total citations: 8,393; avg.\ 10.79/paper --- sustained academic engagement
+            \item 778篇核心文献中763篇（98.07\%）为同行评议期刊论文
+            \item 总引用8393次，篇均10.79次——持续学术关注度
         \end{itemize}
     \end{block}
 \end{frame}
 
-\begin{frame}{Why Radio Has Long Dominated SETI}
-    \begin{block}{Physical Advantages}
+\begin{frame}{为何射电路径长期居于主流}
+    \begin{block}{物理优势}
         \begin{itemize}
-            \item Lower photon energy at radio frequencies $\rightarrow$ efficient for long-range information transmission
-            \item Minimal atmospheric attenuation at radio wavelengths
-            \item Interstellar medium attenuation relatively controlled
+            \item 射电波段的单光子能量较低，适合长距离、持续承载信息传输
+            \item 射电波穿越地球大气衰减最小
+            \item 星际介质对射电信号衰减相对可控
         \end{itemize}
     \end{block}
 
-    \begin{block}{Technical Advantages}
+    \begin{block}{技术优势}
         \begin{itemize}
-            \item Mature pipeline: narrow-band detection, Doppler correction, RFI rejection, repeat observation
-            \item High equipment overlap with conventional radio astronomy --- enables ``commensal'' (shared) observing
-            \item Drake Equation provides a quantitative framework
+            \item 成熟的技术链条：窄带检测、多普勒漂移修正、RFI排除、重复观测
+            \item 与常规射电天文设备重合度高，可"搭载式"运行
+            \item 德雷克方程提供量化分析框架
         \end{itemize}
     \end{block}
 
-    \defination{Key Insight}{
-        Radio SETI's longevity is not just preference --- it is supported by physics, engineering maturity, and institutional ``ride-along'' feasibility.
+    \defination{核心要点}{
+        射电SETI的长盛不衰不仅是偏好，而是物理基础、技术成熟度和制度"搭载"可行性的共同支撑。
     }
 \end{frame}
 
 % ============================================================
-\section{SETI vs.\ Traditional Observational Science}
+\section{SETI与传统天文科学的范式差异}
 % ============================================================
 
-\begin{frame}{Paradigm Differences: SETI vs.\ Traditional Astronomy}
+\begin{frame}{范式差异：SETI与传统天文学}
     \begin{table}
         \centering\small
-        \begin{tabular}{lp{3.5cm}p{3.5cm}}
+        \begin{tabular}{lp{3.2cm}p{3.2cm}}
             \hline
-            \textbf{Dimension} & \textbf{Traditional Astronomy} & \textbf{SETI} \\
+            \textbf{比较维度} & \textbf{传统观测天文学} & \textbf{SETI} \\
             \hline
-            Target & Objects known to exist & Existence itself uncertain \\
-            Null result & Can directly constrain model parameters & Only excludes local hypotheses \\
-            Positive threshold & Repeated observation + model fitting & Must exclude RFI, instrument artifacts, all natural processes \\
-            Evaluation & Precision \& sample size & Public focuses on ``discovery or not'' \\
-            Funding & Embedded in stable observational systems & Relies on special initiatives \\
+            研究对象 & 对象已知存在 & 是否存在本身不确定 \\
+            零结果含义 & 可直接压缩模型参数 & 只能排除局部假设 \\
+            正结果门槛 & 重复观测+模型拟合 & 须排除RFI、设备伪迹和所有自然过程 \\
+            成果评价 & 精度和样本规模 & 公众易只关注"是否发现" \\
+            资金制度 & 嵌入稳定观测体系 & 依赖专项倡议与附加机时 \\
             \hline
         \end{tabular}
     \end{table}
 
-    \begin{block}{Cosmology as a Reference}
-        Cosmology transformed from ``speculative'' to ``precision science'' through observational advances (Hubble, COBE, Planck). SETI needs the same: turning vague null results into clear parameter-space upper bounds.
+    \begin{block}{以宇宙学为参照}
+        宇宙学从"思辨性过强"到"精确宇宙学"的转化，靠的不是哲学辩护，而是观测能力的进步（COBE、Planck等）。SETI需要同样的路径：把"听了很久没听到"变成清晰的参数空间约束。
     \end{block}
 \end{frame}
 
 % ============================================================
-\section{SKA's Three-Dimensional Capability Leap}
+\section{SKA驱动的三维度跃升}
 % ============================================================
 
-\begin{frame}{Frequency: From Limited Windows to Facility-Level Wideband}
+\begin{frame}{频率维度：从局部窗口到设施级宽频覆盖}
     \begin{center}
         \includegraphics[width=0.75\textwidth]{fig/fig_06_p28.png}
     \end{center}
     \vspace{-0.3em}
-    {\small Figure 5.1: Frequency span comparison across representative radio SETI programs}
+    {\small 图5.1 代表性射电SETI计划的频率跨度比较}
 
-    \begin{block}{Order-of-Magnitude Leap}
+    \begin{block}{数量级跃升}
         \begin{itemize}
-            \item Ozma: $\sim$1.42 GHz single frequency; Phoenix: 1--3 GHz; BL: 1.10--3.45 GHz
-            \item SKA-Low: 50--350 MHz + SKA-Mid: 0.35--15.4 GHz = facility-level wideband coverage
-            \item Reduces prior bias toward ``water hole'' band; extends search to lower \& higher frequencies
+            \item 奥兹玛：$\sim$1.42 GHz单频点；凤凰：1--3 GHz；BL：1.10--3.45 GHz
+            \item SKA-Low：50--350 MHz + SKA-Mid：0.35--15.4 GHz = 设施级宽频覆盖
+            \item 减少对"水洞"频段的先验偏好，系统扩展搜索频段
         \end{itemize}
     \end{block}
 \end{frame}
 
-\begin{frame}{Sky Area: From Targeted Monitoring to Cumulative Coverage}
+\begin{frame}{天区维度：从点目标监听走向可累积覆盖}
     \begin{center}
         \includegraphics[width=0.75\textwidth]{fig/fig_07_p29.png}
     \end{center}
     \vspace{-0.3em}
-    {\small Figure 5.2: Sky coverage comparison (log scale)}
+    {\small 图5.2 代表性射电SETI计划的天区覆盖比较（对数坐标）}
 
-    \begin{block}{Structural Upgrade}
+    \begin{block}{搜索策略的结构升级}
         \begin{itemize}
-            \item Ozma: $\sim$0.31 deg$^2$; Phoenix: $\sim$12.8 deg$^2$; BL: $\sim$16.0 deg$^2$
-            \item SKA: projected $10^3$--$10^4$ deg$^2$ cumulative potential via commensal surveys
-            \item First time deep-search and wide-survey strategies coexist in one facility
+            \item 奥兹玛：$\sim$0.31 deg$^2$；凤凰：$\sim$12.8 deg$^2$；BL：$\sim$16.0 deg$^2$
+            \item SKA：预期可累积覆盖 $10^3$--$10^4$ deg$^2$（通过共享观测）
+            \item 首次实现深搜与广域巡天在同一设施体系内并存
         \end{itemize}
     \end{block}
 \end{frame}
 
-\begin{frame}{Sensitivity: Beyond ``Larger Aperture''}
+\begin{frame}{灵敏度维度：SKA的价值不只是"口径更大"}
     \begin{center}
         \includegraphics[width=0.75\textwidth]{fig/fig_08_p32.png}
     \end{center}
     \vspace{-0.3em}
-    {\small Figure 5.3: Sensitivity proxy comparison using collecting area (log scale)}
+    {\small 图5.3 以集光面积为代理的灵敏度比较（对数坐标）}
 
-    \begin{block}{Two Key Equations}
+    \begin{block}{关键公式}
         \begin{itemize}
-            \item Radiometer equation: $S_{\min} \approx \dfrac{(S/N)_{\min} \cdot \text{SEFD}}{\sqrt{n_p \, \Delta\nu_{\text{ch}} \, t_{\text{int}}}}$
-            \item EIRP constraint: $\text{EIRP}_{\min} \approx 4\pi d^2 \, S_{\min} \, \Delta\nu_{\text{sig}}$
-            \item SKA1 total collecting area $\sim 4.33 \times 10^5$ m$^2$ --- 1--2 orders higher than any single dish
+            \item 辐射计方程：$S_{\min} \approx \dfrac{(S/N)_{\min} \cdot \text{SEFD}}{\sqrt{n_p \, \Delta\nu_{\text{ch}} \, t_{\text{int}}}}$
+            \item EIRP约束：$\text{EIRP}_{\min} \approx 4\pi d^2 \, S_{\min} \, \Delta\nu_{\text{sig}}$
+            \item SKA1总集光面积 $\sim 4.33 \times 10^5$ m$^2$，比任何单口径高1--2个数量级
         \end{itemize}
     \end{block}
 \end{frame}
 
-\begin{frame}{Three-Dimensional Synchronous Expansion}
-    \theorem{Core Finding}{
-        SKA may achieve \textbf{simultaneous expansion} across sky coverage, frequency coverage, and sensitivity for the first time --- transforming null results from weak constraints to definitive parameter-space upper bounds.
+\begin{frame}{三维同步扩张与"零结果"的新含义}
+    \theorem{核心发现}{
+        SKA有望首次实现天区覆盖、频率覆盖和灵敏度三项关键能力的\textbf{同步扩张}，使长期难以形成强约束的"零结果"转化为更明确的参数空间上界。
     }
 
     \begin{table}
         \centering\small
         \begin{tabular}{lccc}
             \hline
-            \textbf{Program} & \textbf{Sky (deg$^2$)} & \textbf{Freq (GHz)} & \textbf{Area (m$^2$)} \\
+            \textbf{项目} & \textbf{天区（deg$^2$）} & \textbf{频率（GHz）} & \textbf{集光面积（m$^2$）} \\
             \hline
-            Ozma & 0.31 & 1.42 (single) & $\sim$531 \\
-            Phoenix & 12.8 & 1--3 & $\sim$3,217 \\
-            BL & 16.0 & 1.10--3.45 & $\sim$7,854 \\
-            NASA HRMS & $4.1 \times 10^4$ & 1--10 & multi-facility \\
+            奥兹玛计划 & 0.31 & 1.42（单频） & $\sim$531 \\
+            凤凰计划 & 12.8 & 1--3 & $\sim$3,217 \\
+            Breakthrough Listen & 16.0 & 1.10--3.45 & $\sim$7,854 \\
+            NASA HRMS & $4.1 \times 10^4$ & 1--10 & 多设施 \\
             \textbf{SKA} & $\mathbf{10^3}$--$\mathbf{10^4}$ & \textbf{0.05--15.4} & $\mathbf{\sim 4.3 \times 10^5}$ \\
             \hline
         \end{tabular}
@@ -327,60 +326,60 @@
 \end{frame}
 
 % ============================================================
-\section{Conclusions \& Future Perspectives}
+\section{结论与展望}
 % ============================================================
 
-\begin{frame}{Main Conclusions}
-    \begin{block}{1. Literature Dynamics}
-        SETI's rise and fall are driven by \textbf{equipment capabilities, funding structures, and disciplinary context} --- not by whether signals are found.
+\begin{frame}{主要结论}
+    \begin{block}{1. 文献统计发现}
+        SETI的兴衰更主要受\textbf{设备能力、资助结构及相关学科发展条件}影响，而非单纯取决于是否发现可信信号。
     \end{block}
 
-    \begin{block}{2. Three-Dimensional Framework}
-        Sky coverage $\times$ frequency coverage $\times$ sensitivity reveals \textbf{structural differences} between historical programs and SKA.
+    \begin{block}{2. 三维框架价值}
+        天区覆盖 $\times$ 频率覆盖 $\times$ 灵敏度的三维框架，可有效揭示历史计划与SKA之间的\textbf{结构性差异}。
     \end{block}
 
-    \begin{block}{3. SKA's Core Significance}
-        SKA's importance lies not in guaranteeing discovery, but in \textbf{reshaping the evidence base} --- pushing SETI toward parameter-space-constrained observational science.
+    \begin{block}{3. SKA核心意义}
+        SKA对SETI的核心意义不在于保证发现地外文明，而在于\textbf{重塑其证据基础与成果评价方式}，推动SETI走向以参数空间约束为特征的观测科学。
     \end{block}
 
-    \begin{block}{4. Paradigm Transformation}
-        First simultaneous expansion of three key capabilities; null results become \textbf{meaningful upper bounds} rather than ``nothing happened.''
+    \begin{block}{4. 范式转化}
+        首次实现三项关键能力的同步扩张，使零结果从弱约束转化为参数空间的\textbf{明确上界}。
     \end{block}
 \end{frame}
 
-\begin{frame}{Future Perspectives}
-    \begin{block}{Commensal Observation}
-        SETI backends operate in parallel with regular astronomy --- no dedicated telescope time needed.
+\begin{frame}{对SETI发展的思考与展望}
+    \begin{block}{共享观测优先}
+        SETI后端可与常规天文观测并行运行，无需单独占用望远镜时间，最大化观测效率。
     \end{block}
 
-    \begin{block}{Multi-Band Coordination}
-        Radio as primary axis; optical/IR/UV as cross-validation for technosignature searches.
+    \begin{block}{多波段联动}
+        射电仍应作为主轴，但光学、红外、紫外等多波段联动可提供技术特征搜索的交叉验证。
     \end{block}
 
-    \begin{block}{Algorithm \& Machine Learning}
-        Critical for RFI rejection, candidate screening, and verification at scale.
+    \begin{block}{算法方法支撑}
+        机器学习与信号处理算法在RFI排除、候选目标筛查与复核中发挥关键作用。
     \end{block}
 
-    \begin{block}{Formalizing Null Results}
-        Treat ``no detection'' as formal scientific output with standardized parameter-space reporting.
+    \begin{block}{零结果正式化}
+        将零结果当作正式科学产出，建立规范化的参数空间约束报告体系。
     \end{block}
 
-    \begin{block}{Exoplanet \& Astrobiology Synergy}
-        Coordinate target selection with exoplanet habitability studies for more physically motivated searches.
+    \begin{block}{与系外行星和天体生物学协同}
+        结合系外行星和宜居性研究，为technosignature搜索提供更扎实的科学语境。
     \end{block}
 \end{frame}
 
 % ============================================================
-\section{Q \& A}
+\section{致谢}
 % ============================================================
 
 \begin{frame}
     \begin{center}
-        {\Huge\textbf{Questions \& Discussion}}\\[2em]
-        {\Large Thank you for your attention!}\\[1em]
-        {\normalsize Wang Yiyu \quad|\quad 22344140}\\[0.3em]
-        {\small Supervisor: Prof.\ Zhang Yong\\
-        School of Physics and Astronomy, Sun Yat-sen University}
+        {\Huge\textbf{感谢各位专家评委的指导！}}\\[2em]
+        {\Large 谢谢！}\\[1em]
+        {\normalsize 答辩人：王伊煜 \quad|\quad 22344140}\\[0.3em]
+        {\small 指导教师：张泳 教授\\
+        中山大学 物理与天文学院}
     \end{center}
 \end{frame}
 
