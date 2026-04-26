@@ -4,9 +4,9 @@
 \LoadClass[aspectratio=169]{beamer}
 
 \RequirePackage{fontspec}
-% Set fonts - use available fonts
-\setmainfont{Liberation Serif}  % Times-compatible
-\setsansfont{Liberation Serif}
+% Main fonts - Liberation Serif for Latin, Noto Sans CJK for Chinese
+\setmainfont{Noto Sans CJK HK}  % Supports both Latin and CJK
+\setsansfont{Noto Sans CJK HK}
 
 \RequirePackage{amsmath}
 \RequirePackage{hyperref}
