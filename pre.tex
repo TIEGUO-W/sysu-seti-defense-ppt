@@ -1,0 +1,315 @@
+\documentclass{sysupptthesis}
+
+\AddToHook{shipout/foreground}{\BackgroundPicture}
+\author{Wang Yiyu}
+\title{Search for Extraterrestrial Intelligence\\in the New Era}
+\subtitle{Bachelor's Thesis Defense Report}
+\institute{School of Physics and Astronomy, Sun Yat-sen University}
+\date{April 2026}
+
+\begin{document}
+
+% ============ Title Page ============
+\begin{frame}
+    \titlepage
+    \vspace*{-0.5cm}
+    \begin{center}
+        {\large\textbf{Sun Yat-sen University}}\\[0.3em]
+        {\normalsize Candidate: Wang Yiyu \quad|\quad Student ID: 22344140}\\[0.2em]
+        {\normalsize Supervisor: Prof.\ Zhang Yong}
+    \end{center}
+\end{frame}
+
+% ============ Outline ============
+\begin{frame}{Contents}
+    \tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+\end{frame}
+
+% ============================================================
+\section{Research Background \& Significance}
+% ============================================================
+
+\begin{frame}{SETI Research Background}
+    \begin{block}{Historical Origins}
+        \begin{itemize}
+            \item 1959: Cocconi \& Morrison published the foundational paper in \textit{Nature}
+            \item 1960: Frank Drake launched Project Ozma --- the birth of modern SETI
+            \item Evolution from narrow-band listening to technosignature search frameworks
+            \item Long situated at the intersection of astronomy, public imagination, and science fiction
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Core Difficulties}
+        \begin{itemize}
+            \item Extremely large search space with highly uncertain signal forms
+            \item Chronic observational coverage gaps --- null results difficult to constrain
+            \item Involves extremely rare targets,超大 parameter spaces, and methodology challenges
+            \item The advent of SKA provides a new entry point for re-evaluating SETI's scientific significance
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Research Significance \& Core Question}
+    \defination{Central Thesis}{
+        How can SETI transform from a controversial exploratory topic into a testable observational science?
+    }
+
+    \begin{block}{Approach}
+        \begin{itemize}
+            \item Treat sky coverage, frequency coverage, and sensitivity as three critical dimensions
+            \item Establish a unified observational coordinate system to compare representative programs across historical stages
+            \item Demonstrate why SKA may serve as the \textbf{facility inflection point} for new-era SETI
+            \item Push SETI toward observational science characterized by parameter space constraints
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+% ============================================================
+\section{Methodology \& Three-Dimensional Framework}
+% ============================================================
+
+\begin{frame}{Data Sources \& Selection Criteria}
+    \begin{block}{Literature Foundation}
+        \begin{itemize}
+            \item \textbf{ADS database}: 1960--2025 SETI publications for staged evolution analysis
+            \item \textbf{Classical literature}: from Cocconi-Morrison to the technosignature discourse thread
+            \item \textbf{Representative observations}: Breakthrough Listen and other public observation data
+            \item \textbf{SKAO official documents}: system specifications and performance parameters
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Screening Process}
+        \begin{itemize}
+            \item \textbf{Strict core set}: titles/abstracts containing SETI, technosignature keywords $\rightarrow$ 778 samples
+            \item \textbf{Extended set}: expanded to astronomy \& physics databases $\rightarrow$ 1,519 samples for broader trend analysis
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Three-Dimensional Analysis Framework}
+    \begin{block}{1. Sky Coverage --- Cumulative observed sky area (deg$^2$)}
+        \begin{itemize}
+            \item Targeted monitoring: approximate by target count $\times$ primary beam area
+            \item Survey programs: use publicly reported area orders of magnitude
+            \item Emphasis on order-of-magnitude comparison, not per-program precision
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{2. Frequency Coverage --- Actual searched frequency range (GHz)}
+        \begin{itemize}
+            \item Distinguish nominal instrument capability from actual program search range
+            \item Calculated from published papers / official materials
+            \item Search bandwidth is the core metric
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{3. Sensitivity --- Minimum detectable signal capability}
+        \begin{itemize}
+            \item Strictly uses $A_{\text{eff}}/T_{\text{sys}}$, SEFD, and radiometer equation parameters
+            \item Collecting area (m$^2$) used as intuitive proxy in visualizations
+            \item Formal constraints based on radio sensitivity parameters
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+% ============================================================
+\section{Historical Evolution of SETI (1960--2025)}
+% ============================================================
+
+\begin{frame}{Four Stages of SETI Development}
+    \begin{block}{Stage 1 (1960s--1970s): Project Ozma Era}
+        \begin{itemize}
+            \item Cocconi-Morrison foundational paper (1959); Frank Drake at Green Bank (1960)
+            \item Narrow-band listening pathway established; slow academic momentum
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Stage 2 (1980s--1990s): NASA Program Era}
+        \begin{itemize}
+            \item NASA High Resolution Microwave Survey (HRMS)
+            \item 1992 ACT detection; post-Cold War funding restructuring; Phoenix Project restart
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Stage 3 (2000s--2010s): Breakthrough Listen Era}
+        \begin{itemize}
+            \item Breakthrough Listen launched (2015); multi-band coordination
+            \item FAST (China Sky Eye) participation; open data \& algorithm renaissance
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Stage 4 (2020s--): SKA Facility Inflection Point}
+        \begin{itemize}
+            \item SKA enters construction and operation; sq.\ km array sensitivity leap
+            \item Parameter space constraint capability expands; null results converted to upper bounds
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Why Radio Has Long Dominated}
+    \begin{block}{Physical Advantages}
+        \begin{itemize}
+            \item Radio band: one of the windows with minimal atmospheric attenuation
+            \item Large-aperture radio telescopes provide high sensitivity
+            \item Narrow-band filtering naturally suited for detecting artificial modulated signals
+            \item Interstellar medium attenuation is relatively controlled at radio frequencies
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Technical Advantages}
+        \begin{itemize}
+            \item Mature technology: Drake Equation provides quantitative analysis framework
+            \item Continuous equipment upgrades from 1960s to 2020s
+            \item Relatively controllable costs; can share facilities with conventional astronomy
+            \item Narrow-band search most efficient for parameter space constraints
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+% ============================================================
+\section{SKA's Three-Dimensional Capability Leap}
+% ============================================================
+
+\begin{frame}{Frequency: From Limited Windows to Facility-Level Wideband}
+    Historical programs typically searched only limited frequency bands. SKA's low- and mid-frequency aperture arrays cover 50 MHz to $>$20 GHz, achieving facility-level wideband coverage for the first time.
+
+    \begin{table}
+        \centering
+        \small
+        \begin{tabular}{lc}
+            \hline
+            \textbf{Program} & \textbf{Frequency Coverage} \\
+            \hline
+            Project Ozma & Single frequency, extremely limited \\
+            NASA HRMS & 0.1--10 GHz (partial coverage) \\
+            Breakthrough Listen & 1.10--3.45 GHz ($\sim$2.35 GHz width) \\
+            SKA1-LOW & 50--350 MHz \\
+            SKA1-MID & 0.35--15.3 GHz \\
+            \hline
+        \end{tabular}
+        \caption{Order-of-magnitude leap in spectral coverage}
+    \end{table}
+\end{frame}
+
+\begin{frame}{Sky Area: From Targeted Monitoring to Cumulative Coverage}
+    \begin{block}{Limitations of Traditional Programs}
+        \begin{itemize}
+            \item Targeted monitoring: target count $\neq$ actual coverage area
+            \item Must convert via primary beam approximation to comparable area
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{SKA's Breakthrough}
+        \begin{itemize}
+            \item Low-frequency array beam coverage enables true sky surveys
+            \item Can repeatedly observe same regions with signal accumulation
+        \end{itemize}
+    \end{block}
+
+    \begin{table}
+        \centering
+        \small
+        \begin{tabular}{lc}
+            \hline
+            \textbf{Program} & \textbf{Sky Coverage} \\
+            \hline
+            Project Ozma & 2 nearby stars \\
+            Phoenix Project & $\sim$800 stellar targets \\
+            Breakthrough Listen & 1,327 stars, $\sim$0.5 deg$^2$ \\
+            SKA (projected) & $10^2$--$10^3$ deg$^2$+ \\
+            \hline
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+\begin{frame}{Sensitivity: SKA's Value Beyond ``Larger Aperture''}
+    \defination{Sensitivity Metric}{
+        Strict comparison uses $A_{\text{eff}}/T_{\text{sys}}$, SEFD, and minimum detectable flux density from the radiometer equation. SKA1 total collecting area $\sim 10^6$ m$^2$, 1--2 orders of magnitude higher than any single-dish telescope.
+    }
+
+    \begin{block}{Evolution}
+        \begin{itemize}
+            \item \textbf{Ozma/Green Bank}: 300-ft single dish; limited collecting area; detect only nearby strong signals
+            \item \textbf{Parkes/Green Bank (BL)}: $\sim$100m aperture; Parkes $\sim$64m; sensitivity limited by single-station equipment
+            \item \textbf{SKA1-MID}: 1,500 $\times$ 15m dishes; collecting area $\sim 10^5$ m$^2$; SEFD 1--2 orders lower
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Three-Dimensional Synchronous Expansion}
+    \theorem{Core Finding}{
+        Most historical SETI programs advanced in only one or two dimensions. SKA is expected to achieve \textbf{simultaneous expansion} across sky coverage, frequency coverage, and sensitivity for the first time.
+    }
+
+    \begin{table}
+        \centering
+        \small
+        \begin{tabular}{lccc}
+            \hline
+            \textbf{Program} & \textbf{Sky} & \textbf{Frequency} & \textbf{Sensitivity} \\
+            \hline
+            Project Ozma & $\sim$0.001 deg$^2$ & $<$0.01 GHz & $\sim 10^2$ m$^2$ \\
+            NASA HRMS & $\sim$1 deg$^2$ & $\sim$10 GHz & $\sim 10^3$ m$^2$ \\
+            Phoenix & $\sim$10 deg$^2$ & $\sim$5 GHz & $\sim 10^4$ m$^2$ \\
+            Breakthrough Listen & $\sim$0.5 deg$^2$ & $\sim$2.35 GHz & $\sim 10^4$ m$^2$ \\
+            \textbf{SKA (projected)} & $\mathbf{10^2}$--$\mathbf{10^3}$ deg$^2$ & $\mathbf{>10}$ GHz & $\mathbf{\sim 10^5}$ m$^2$ \\
+            \hline
+        \end{tabular}
+        \caption{Three-dimensional comparison across SETI eras}
+    \end{table}
+\end{frame}
+
+% ============================================================
+\section{Conclusions \& Future Perspectives}
+% ============================================================
+
+\begin{frame}{Main Conclusions}
+    \begin{block}{1. Literature Statistics}
+        SETI's rise and fall are primarily driven by equipment capabilities, funding structures, and related disciplinary developments --- not by whether credible signals are discovered.
+    \end{block}
+
+    \begin{block}{2. Three-Dimensional Framework Value}
+        The sky coverage $\times$ frequency coverage $\times$ sensitivity framework effectively reveals structural differences between historical programs and SKA.
+    \end{block}
+
+    \begin{block}{3. SKA's Core Significance}
+        SKA's importance for SETI lies not in guaranteeing discovery, but in \textbf{reshaping the evidence base} and outcome evaluation --- pushing SETI toward parameter-space-constrained observational science.
+    \end{block}
+
+    \begin{block}{4. Paradigm Transformation}
+        First simultaneous expansion of three key capabilities, converting null results from weak constraints to definitive parameter space upper bounds.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Future Perspectives}
+    \begin{block}{Commensal Observation Priority}
+        SETI backends can operate in parallel with常规 astronomical observations without dedicated telescope time, maximizing efficiency.
+    \end{block}
+
+    \begin{block}{Multi-Band Coordination}
+        Radio should remain the primary SETI axis, but optical, infrared, and UV multi-band coordination provides cross-validation for technosignature searches.
+    \end{block}
+
+    \begin{block}{Algorithm \& Methods}
+        Machine learning and signal processing algorithms play critical roles in RFI rejection, candidate screening, and verification --- core tools for SETI data processing.
+    \end{block}
+
+    \begin{block}{Formalizing Null Results}
+        Treat null results as formal scientific outputs; establish standardized parameter space constraint reporting to give SETI's ``no detection'' genuine scientific value.
+    \end{block}
+\end{frame}
+
+% ============================================================
+\section{Q \& A}
+% ============================================================
+
+\begin{frame}
+    \begin{center}
+        {\Huge\textbf{Questions \& Discussion}}\\[2em]
+        {\Large Thank you for your attention!}\\[1em]
+        {\normalsize Wang Yiyu | 22344140}\\[0.3em]
+        {\small Supervisor: Prof.\ Zhang Yong\\ School of Physics and Astronomy, Sun Yat-sen University}
+    \end{center}
+\end{frame}
+
+\end{document}
